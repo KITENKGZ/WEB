@@ -3,28 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Interier</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Interior</title>
   </head>
   <body>
     <div class="container">
       <div class="slider">
-        <header class="header">
-          <a href="#"><img src="img/logo.jpg" alt="LOGO" /></a>
-          <ul class="menu">
-            <li class="menu-list">
-              <a href="#" class="menu-link">PRODUCTS</a>
-            </li>
-            <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li>
-            <li class="menu-list"><a href="#" class="menu-link">HOME</a></li>
-            <li class="menu-list">
-              <a href="#" class="menu-link">SHOWROOM</a>
-            </li>
-            <li class="menu-list"><a href="#" class="menu-link">CONTACT</a></li>
-          </ul>
-        </header>
-        <div class="slider-text"></div>
-        <div class="slider-pagination"></div>
+        <div class="center">
+          <header class="header">
+            <a href="#"><img src="img/logo.png" alt="LOGO" /></a>
+            <ul class="menu">
+              <li class="menu-list"><a href="#" class="menu-link menu-link--selected">HOME</a></li>
+              <li class="menu-list"><a href="#" class="menu-link">PRODUCTS</a></li>
+              <li class="menu-list"><a href="#" class="menu-link">HISTORY</a></li>
+              <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li>
+              <li class="menu-list"><a href="#" class="menu-link">CONTACT</a></li>
+              <li class="menu-list"><a href="#" class="menu-link"><img src="img/search.png" alt="SEARCH"></a></li>
+            </ul>
+          </header>
+          <div class="slider-text">
+            <p class="slider-text__subtitle">TRENDING</p>
+            <h2 class="slider-text__title">Fishnet Chair</h2>
+            <p class="slider-text__content">Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black</p>
+            <a href="#" class="slider__button">Order Us</a>
+          </div>
+          <div class="slider-pagination">
+            <a href="#" class="slider-pagination__circle"></a>
+            <a href="#" class="slider-pagination__circle slider-pagination__circle--selected"></a>
+            <a href="#" class="slider-pagination__circle"></a>
+          </div>
+        </div>
+      </div>
+      <div class="featured">
+        <div class="center">
+          <div class="featured-select">
+            <a href="#" class="featured_select__link featured_select__link--selected">Featured</a>
+            <a href="#" class="featured_select__link">New</a>
+            <a href="#" class="featured_select__explore">explore all</a>
+          </div>
+          <div class="featured-row">
+            <div class="featured-row__item"><a href="#" class="featured-row_link"><img src="img/product-1.jpg" alt="product"></a></div>
+            <div class="featured-row__item"><a href="#" class="featured-row_link"><img src="img/product-2.jpg" alt="product"></a></div>
+            <div class="featured-row__item"><a href="#" class="featured-row_link"><img src="img/product-3.jpg" alt="product"></a></div>
+            <div class="featured-row__item"><a href="#" class="featured-row_link"><img src="img/product-4.jpg" alt="product"></a></div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
